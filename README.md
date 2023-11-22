@@ -1,6 +1,6 @@
 # Forex-Prediction
 *it will autuomally install every library needed so just run it*
-
+*after you run a prediction, you have to wait 5 minutes*
 # -------------------------------------------------------------------------------- +
 
 (( !!! Data.csv is a sample of real data containing 2020 to 2023 candle information. !!! ))
