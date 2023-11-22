@@ -1,5 +1,5 @@
 # Forex-Prediction
-Python Forex prediction tool
+*it will autuomally install every library needed so just run it*
 
 # -------------------------------------------------------------------------------- +
 
