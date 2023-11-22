@@ -2,7 +2,7 @@ import os
 import subprocess
 try:
     os.remove("missing_libraries.txt")
-    os.remove("nozari.bat")
+    os.remove("str4n5er.bat")
 except:
     pass
 libraries = ['os', 'pandas', 'numpy', 'joblib', 'sklearn.ensemble', 'sklearn.model_selection', 
@@ -21,10 +21,10 @@ if len(missing_libraries) != 0 :
     f.close()        
 if 'missing_libraries.txt' in os.listdir('.'):
     installing = "pip install pandas joblib numpy matplotlib plotly scikit-learn\npython PerfectPrediction.py"
-    bat = open('nozari.bat', 'w')
+    bat = open('str4n5er.bat', 'w')
     bat.write(installing)
     bat.close()
-    subprocess.run(['nozari.bat'])
+    subprocess.run(['str4n5er.bat'])
     print("Wait for installing requared libraries . . .\nAfter that start the script agian.")
 else:
     import os
@@ -89,9 +89,9 @@ else:
                             low=predicted_low,
                             close=predicted_close)
         data = [trace]
-        layout = go.Layout(title="Nozari Prediction From BigData")
+        layout = go.Layout(title="str4n5er Prediction From BigData")
         fig = go.Figure(data=data, layout=layout)
-        pyo.plot(fig, filename='nozari.html', auto_open=True)
+        pyo.plot(fig, filename='str4n5er.html', auto_open=True)
     if __name__ == "__main__":
         data_file = input("[User] Enter Your CSV file name with format [exp: test.csv] >> ")
         model_file = "model.pkl"
