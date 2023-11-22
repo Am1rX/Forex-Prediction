@@ -1,5 +1,5 @@
 # Forex-Prediction
-*it will autuomally install every library needed so just run it*
+*it will autuomally install every library needed so just run it,*
 *after you run a prediction, you have to wait 5 minutes*
 # -------------------------------------------------------------------------------- +
 
